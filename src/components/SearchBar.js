@@ -16,6 +16,7 @@ export default class SearchBar extends React.Component {
                     <div className="field">
                         <label><h3>Image Search</h3></label>
                         <input type="text"
+                            placeholder="Search..."
                             value={this.state.inputValue}
                             onChange={e => this.setState({ inputValue: e.target.value })} />
                     </div>
